@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyolov3"
-version = "0.1.1"
+version = "0.1.2"
 description = "A PyTorch implementation of the YOLO v3 object detection algorithm"
 authors = ["reeve0930 <reeve0930@gmail.com>"]
 license = "MIT"

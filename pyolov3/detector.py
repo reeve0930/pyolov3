@@ -15,7 +15,7 @@ from torch.autograd import Variable
 from .darknet import Darknet
 from .util import load_classes, write_results
 
-model_path = "{}/.config/pyyolov3".format(os.path.expanduser("~"))
+model_path = "{}/.config/pyolov3".format(os.path.expanduser("~"))
 file_url = {
     "yolov3.weights": "https://dl.dropboxusercontent.com/s/gx6bgx66dgnzblx/yolov3.weights",
     "yolov3-openimages.weights": "https://dl.dropboxusercontent.com/s/4zkw9tnlzdeae3d/yolov3-openimages.weights",
